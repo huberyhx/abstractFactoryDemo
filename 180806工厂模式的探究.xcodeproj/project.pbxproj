@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		839F0EF321186C56005EB1ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 839F0EF221186C56005EB1ED /* AppDelegate.m */; };
+		839F0EF621186C56005EB1ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 839F0EF521186C56005EB1ED /* ViewController.m */; };
+		839F0EF921186C56005EB1ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839F0EF721186C56005EB1ED /* Main.storyboard */; };
+		839F0EFB21186C58005EB1ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839F0EFA21186C58005EB1ED /* Assets.xcassets */; };
+		839F0EFE21186C58005EB1ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839F0EFC21186C58005EB1ED /* LaunchScreen.storyboard */; };
+		839F0F0121186C58005EB1ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 839F0F0021186C58005EB1ED /* main.m */; };
+		839F0F0C21186E15005EB1ED /* HXPeanutOil.m in Sources */ = {isa = PBXBuildFile; fileRef = 839F0F0B21186E15005EB1ED /* HXPeanutOil.m */; };
+		839F0F0F21186E96005EB1ED /* HXPeanutOilFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 839F0F0E21186E96005EB1ED /* HXPeanutOilFactory.m */; };
+		839F0F1221187155005EB1ED /* HXOilFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 839F0F1121187155005EB1ED /* HXOilFactory.m */; };
+		839F0F152118717D005EB1ED /* HXOil.m in Sources */ = {isa = PBXBuildFile; fileRef = 839F0F142118717D005EB1ED /* HXOil.m */; };
+		839F0F1821187420005EB1ED /* HXMaizeOilFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 839F0F1721187420005EB1ED /* HXMaizeOilFactory.m */; };
+		839F0F1B2118743C005EB1ED /* HXMaizeOil.m in Sources */ = {isa = PBXBuildFile; fileRef = 839F0F1A2118743C005EB1ED /* HXMaizeOil.m */; };
+		839F0F2021198839005EB1ED /* HXOilAccessoryFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 839F0F1F21198839005EB1ED /* HXOilAccessoryFactory.m */; };
+		839F0F2521198A02005EB1ED /* HXOilContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 839F0F2421198A02005EB1ED /* HXOilContainer.m */; };
+		839F0F2821198A18005EB1ED /* HXLuHuaOilContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 839F0F2721198A18005EB1ED /* HXLuHuaOilContainer.m */; };
+		839F0F2E21198B3B005EB1ED /* HXOilLogo.m in Sources */ = {isa = PBXBuildFile; fileRef = 839F0F2D21198B3B005EB1ED /* HXOilLogo.m */; };
+		839F0F3121198B4F005EB1ED /* HXLuHuaOilLogo.m in Sources */ = {isa = PBXBuildFile; fileRef = 839F0F3021198B4F005EB1ED /* HXLuHuaOilLogo.m */; };
+		839F0F3421198B7E005EB1ED /* HXDiGouOilContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 839F0F3321198B7E005EB1ED /* HXDiGouOilContainer.m */; };
+		839F0F3721198C37005EB1ED /* HXDiGouOilLogo.m in Sources */ = {isa = PBXBuildFile; fileRef = 839F0F3621198C37005EB1ED /* HXDiGouOilLogo.m */; };
+		839F0F3A21198D8E005EB1ED /* HXLuHuaOilAccessoryFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 839F0F3921198D8E005EB1ED /* HXLuHuaOilAccessoryFactory.m */; };
+		839F0F3D21198D9A005EB1ED /* HXDiGouOilAccessoryFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 839F0F3C21198D9A005EB1ED /* HXDiGouOilAccessoryFactory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		839F0EEE21186C56005EB1ED /* 180806工厂模式的探究.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "180806工厂模式的探究.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		839F0EF121186C56005EB1ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		839F0EF221186C56005EB1ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		839F0EF421186C56005EB1ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		839F0EF521186C56005EB1ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		839F0EF821186C56005EB1ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		839F0EFA21186C58005EB1ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		839F0EFD21186C58005EB1ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		839F0EFF21186C58005EB1ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		839F0F0021186C58005EB1ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		839F0F0A21186E15005EB1ED /* HXPeanutOil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXPeanutOil.h; sourceTree = "<group>"; };
+		839F0F0B21186E15005EB1ED /* HXPeanutOil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXPeanutOil.m; sourceTree = "<group>"; };
+		839F0F0D21186E96005EB1ED /* HXPeanutOilFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXPeanutOilFactory.h; sourceTree = "<group>"; };
+		839F0F0E21186E96005EB1ED /* HXPeanutOilFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXPeanutOilFactory.m; sourceTree = "<group>"; };
+		839F0F1021187155005EB1ED /* HXOilFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXOilFactory.h; sourceTree = "<group>"; };
+		839F0F1121187155005EB1ED /* HXOilFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXOilFactory.m; sourceTree = "<group>"; };
+		839F0F132118717D005EB1ED /* HXOil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXOil.h; sourceTree = "<group>"; };
+		839F0F142118717D005EB1ED /* HXOil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXOil.m; sourceTree = "<group>"; };
+		839F0F1621187420005EB1ED /* HXMaizeOilFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXMaizeOilFactory.h; sourceTree = "<group>"; };
+		839F0F1721187420005EB1ED /* HXMaizeOilFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXMaizeOilFactory.m; sourceTree = "<group>"; };
+		839F0F192118743C005EB1ED /* HXMaizeOil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXMaizeOil.h; sourceTree = "<group>"; };
+		839F0F1A2118743C005EB1ED /* HXMaizeOil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXMaizeOil.m; sourceTree = "<group>"; };
+		839F0F1E21198839005EB1ED /* HXOilAccessoryFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXOilAccessoryFactory.h; sourceTree = "<group>"; };
+		839F0F1F21198839005EB1ED /* HXOilAccessoryFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXOilAccessoryFactory.m; sourceTree = "<group>"; };
+		839F0F2321198A02005EB1ED /* HXOilContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXOilContainer.h; sourceTree = "<group>"; };
+		839F0F2421198A02005EB1ED /* HXOilContainer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXOilContainer.m; sourceTree = "<group>"; };
+		839F0F2621198A18005EB1ED /* HXLuHuaOilContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXLuHuaOilContainer.h; sourceTree = "<group>"; };
+		839F0F2721198A18005EB1ED /* HXLuHuaOilContainer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXLuHuaOilContainer.m; sourceTree = "<group>"; };
+		839F0F2C21198B3B005EB1ED /* HXOilLogo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXOilLogo.h; sourceTree = "<group>"; };
+		839F0F2D21198B3B005EB1ED /* HXOilLogo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXOilLogo.m; sourceTree = "<group>"; };
+		839F0F2F21198B4F005EB1ED /* HXLuHuaOilLogo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXLuHuaOilLogo.h; sourceTree = "<group>"; };
+		839F0F3021198B4F005EB1ED /* HXLuHuaOilLogo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXLuHuaOilLogo.m; sourceTree = "<group>"; };
+		839F0F3221198B7E005EB1ED /* HXDiGouOilContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXDiGouOilContainer.h; sourceTree = "<group>"; };
+		839F0F3321198B7E005EB1ED /* HXDiGouOilContainer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXDiGouOilContainer.m; sourceTree = "<group>"; };
+		839F0F3521198C37005EB1ED /* HXDiGouOilLogo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXDiGouOilLogo.h; sourceTree = "<group>"; };
+		839F0F3621198C37005EB1ED /* HXDiGouOilLogo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXDiGouOilLogo.m; sourceTree = "<group>"; };
+		839F0F3821198D8E005EB1ED /* HXLuHuaOilAccessoryFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXLuHuaOilAccessoryFactory.h; sourceTree = "<group>"; };
+		839F0F3921198D8E005EB1ED /* HXLuHuaOilAccessoryFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXLuHuaOilAccessoryFactory.m; sourceTree = "<group>"; };
+		839F0F3B21198D9A005EB1ED /* HXDiGouOilAccessoryFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXDiGouOilAccessoryFactory.h; sourceTree = "<group>"; };
+		839F0F3C21198D9A005EB1ED /* HXDiGouOilAccessoryFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXDiGouOilAccessoryFactory.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		839F0EEB21186C56005EB1ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		839F0EE521186C56005EB1ED = {
+			isa = PBXGroup;
+			children = (
+				839F0EF021186C56005EB1ED /* 180806工厂模式的探究 */,
+				839F0EEF21186C56005EB1ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		839F0EEF21186C56005EB1ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				839F0EEE21186C56005EB1ED /* 180806工厂模式的探究.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		839F0EF021186C56005EB1ED /* 180806工厂模式的探究 */ = {
+			isa = PBXGroup;
+			children = (
+				839F0EF121186C56005EB1ED /* AppDelegate.h */,
+				839F0EF221186C56005EB1ED /* AppDelegate.m */,
+				839F0EF421186C56005EB1ED /* ViewController.h */,
+				839F0EF521186C56005EB1ED /* ViewController.m */,
+				839F0F1D21198177005EB1ED /* 抽象工厂 */,
+				839F0F1C2119816A005EB1ED /* 工厂方法 */,
+				839F0EF721186C56005EB1ED /* Main.storyboard */,
+				839F0EFA21186C58005EB1ED /* Assets.xcassets */,
+				839F0EFC21186C58005EB1ED /* LaunchScreen.storyboard */,
+				839F0EFF21186C58005EB1ED /* Info.plist */,
+				839F0F0021186C58005EB1ED /* main.m */,
+			);
+			path = "180806工厂模式的探究";
+			sourceTree = "<group>";
+		};
+		839F0F1C2119816A005EB1ED /* 工厂方法 */ = {
+			isa = PBXGroup;
+			children = (
+				839F0F3E21198E24005EB1ED /* 工厂 */,
+				839F0F3F21198E31005EB1ED /* 产品 */,
+			);
+			path = "工厂方法";
+			sourceTree = "<group>";
+		};
+		839F0F1D21198177005EB1ED /* 抽象工厂 */ = {
+			isa = PBXGroup;
+			children = (
+				839F0F1E21198839005EB1ED /* HXOilAccessoryFactory.h */,
+				839F0F1F21198839005EB1ED /* HXOilAccessoryFactory.m */,
+				839F0F3821198D8E005EB1ED /* HXLuHuaOilAccessoryFactory.h */,
+				839F0F3921198D8E005EB1ED /* HXLuHuaOilAccessoryFactory.m */,
+				839F0F3B21198D9A005EB1ED /* HXDiGouOilAccessoryFactory.h */,
+				839F0F3C21198D9A005EB1ED /* HXDiGouOilAccessoryFactory.m */,
+				839F0F22211989DE005EB1ED /* 品牌标签 */,
+				839F0F21211989D5005EB1ED /* 油桶 */,
+			);
+			path = "抽象工厂";
+			sourceTree = "<group>";
+		};
+		839F0F21211989D5005EB1ED /* 油桶 */ = {
+			isa = PBXGroup;
+			children = (
+				839F0F2321198A02005EB1ED /* HXOilContainer.h */,
+				839F0F2421198A02005EB1ED /* HXOilContainer.m */,
+				839F0F2621198A18005EB1ED /* HXLuHuaOilContainer.h */,
+				839F0F2721198A18005EB1ED /* HXLuHuaOilContainer.m */,
+				839F0F3221198B7E005EB1ED /* HXDiGouOilContainer.h */,
+				839F0F3321198B7E005EB1ED /* HXDiGouOilContainer.m */,
+			);
+			path = "油桶";
+			sourceTree = "<group>";
+		};
+		839F0F22211989DE005EB1ED /* 品牌标签 */ = {
+			isa = PBXGroup;
+			children = (
+				839F0F2C21198B3B005EB1ED /* HXOilLogo.h */,
+				839F0F2D21198B3B005EB1ED /* HXOilLogo.m */,
+				839F0F2F21198B4F005EB1ED /* HXLuHuaOilLogo.h */,
+				839F0F3021198B4F005EB1ED /* HXLuHuaOilLogo.m */,
+				839F0F3521198C37005EB1ED /* HXDiGouOilLogo.h */,
+				839F0F3621198C37005EB1ED /* HXDiGouOilLogo.m */,
+			);
+			path = "品牌标签";
+			sourceTree = "<group>";
+		};
+		839F0F3E21198E24005EB1ED /* 工厂 */ = {
+			isa = PBXGroup;
+			children = (
+				839F0F1021187155005EB1ED /* HXOilFactory.h */,
+				839F0F1121187155005EB1ED /* HXOilFactory.m */,
+				839F0F0D21186E96005EB1ED /* HXPeanutOilFactory.h */,
+				839F0F0E21186E96005EB1ED /* HXPeanutOilFactory.m */,
+				839F0F1621187420005EB1ED /* HXMaizeOilFactory.h */,
+				839F0F1721187420005EB1ED /* HXMaizeOilFactory.m */,
+			);
+			path = "工厂";
+			sourceTree = "<group>";
+		};
+		839F0F3F21198E31005EB1ED /* 产品 */ = {
+			isa = PBXGroup;
+			children = (
+				839F0F132118717D005EB1ED /* HXOil.h */,
+				839F0F142118717D005EB1ED /* HXOil.m */,
+				839F0F0A21186E15005EB1ED /* HXPeanutOil.h */,
+				839F0F0B21186E15005EB1ED /* HXPeanutOil.m */,
+				839F0F192118743C005EB1ED /* HXMaizeOil.h */,
+				839F0F1A2118743C005EB1ED /* HXMaizeOil.m */,
+			);
+			path = "产品";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		839F0EED21186C56005EB1ED /* 180806工厂模式的探究 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 839F0F0421186C58005EB1ED /* Build configuration list for PBXNativeTarget "180806工厂模式的探究" */;
+			buildPhases = (
+				839F0EEA21186C56005EB1ED /* Sources */,
+				839F0EEB21186C56005EB1ED /* Frameworks */,
+				839F0EEC21186C56005EB1ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "180806工厂模式的探究";
+			productName = "180806工厂模式的探究";
+			productReference = 839F0EEE21186C56005EB1ED /* 180806工厂模式的探究.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		839F0EE621186C56005EB1ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HX;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = haoxu.wang;
+				TargetAttributes = {
+					839F0EED21186C56005EB1ED = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 839F0EE921186C56005EB1ED /* Build configuration list for PBXProject "180806工厂模式的探究" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 839F0EE521186C56005EB1ED;
+			productRefGroup = 839F0EEF21186C56005EB1ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				839F0EED21186C56005EB1ED /* 180806工厂模式的探究 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		839F0EEC21186C56005EB1ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839F0EFE21186C58005EB1ED /* LaunchScreen.storyboard in Resources */,
+				839F0EFB21186C58005EB1ED /* Assets.xcassets in Resources */,
+				839F0EF921186C56005EB1ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		839F0EEA21186C56005EB1ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839F0F1821187420005EB1ED /* HXMaizeOilFactory.m in Sources */,
+				839F0EF621186C56005EB1ED /* ViewController.m in Sources */,
+				839F0F152118717D005EB1ED /* HXOil.m in Sources */,
+				839F0F0121186C58005EB1ED /* main.m in Sources */,
+				839F0F0C21186E15005EB1ED /* HXPeanutOil.m in Sources */,
+				839F0F2E21198B3B005EB1ED /* HXOilLogo.m in Sources */,
+				839F0EF321186C56005EB1ED /* AppDelegate.m in Sources */,
+				839F0F0F21186E96005EB1ED /* HXPeanutOilFactory.m in Sources */,
+				839F0F3721198C37005EB1ED /* HXDiGouOilLogo.m in Sources */,
+				839F0F2521198A02005EB1ED /* HXOilContainer.m in Sources */,
+				839F0F1221187155005EB1ED /* HXOilFactory.m in Sources */,
+				839F0F3121198B4F005EB1ED /* HXLuHuaOilLogo.m in Sources */,
+				839F0F2021198839005EB1ED /* HXOilAccessoryFactory.m in Sources */,
+				839F0F2821198A18005EB1ED /* HXLuHuaOilContainer.m in Sources */,
+				839F0F1B2118743C005EB1ED /* HXMaizeOil.m in Sources */,
+				839F0F3421198B7E005EB1ED /* HXDiGouOilContainer.m in Sources */,
+				839F0F3A21198D8E005EB1ED /* HXLuHuaOilAccessoryFactory.m in Sources */,
+				839F0F3D21198D9A005EB1ED /* HXDiGouOilAccessoryFactory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		839F0EF721186C56005EB1ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				839F0EF821186C56005EB1ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		839F0EFC21186C58005EB1ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				839F0EFD21186C58005EB1ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		839F0F0221186C58005EB1ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		839F0F0321186C58005EB1ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		839F0F0521186C58005EB1ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "180806工厂模式的探究/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.-80806-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		839F0F0621186C58005EB1ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "180806工厂模式的探究/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.-80806-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		839F0EE921186C56005EB1ED /* Build configuration list for PBXProject "180806工厂模式的探究" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839F0F0221186C58005EB1ED /* Debug */,
+				839F0F0321186C58005EB1ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		839F0F0421186C58005EB1ED /* Build configuration list for PBXNativeTarget "180806工厂模式的探究" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839F0F0521186C58005EB1ED /* Debug */,
+				839F0F0621186C58005EB1ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 839F0EE621186C56005EB1ED /* Project object */;
+}
